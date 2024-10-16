@@ -1,4 +1,5 @@
 //Setup sign-up fields for new users.
+//Add basic form validation in the login and sign-up panels.
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
