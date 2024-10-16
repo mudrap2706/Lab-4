@@ -1,3 +1,4 @@
+//Implement a method to handle adding tasks via the TaskManager
 package Controller;
 
 import Model.Task;
@@ -8,7 +9,7 @@ public class TaskController {
     private TaskManager taskManager;
 
     public TaskController(TaskManager taskManager) {
-        this.taskManager = taskManager;
+        this.taskManager = taskManager; 
     }
 
     public List<Task> getAllTasks() {
@@ -17,8 +18,8 @@ public class TaskController {
 
     public List<Task> getTasksForUser(String username) {
         return taskManager.getTasksForUser(username);
-    }
-
+    } 
+    
     public boolean registerUser(String username, String password, String role) {
         return taskManager.addUser(username, password, role);
     }
